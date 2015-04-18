@@ -14,6 +14,9 @@
 		69C9B6741AE059F5007C39F5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 69C9B6731AE059F5007C39F5 /* Images.xcassets */; };
 		69C9B6771AE059F5007C39F5 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 69C9B6751AE059F5007C39F5 /* LaunchScreen.xib */; };
 		69C9B6831AE059F5007C39F5 /* ApplePeelingExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C9B6821AE059F5007C39F5 /* ApplePeelingExampleTests.m */; };
+		69C9B68E1AE05A11007C39F5 /* Human.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C9B68D1AE05A11007C39F5 /* Human.m */; };
+		69C9B6911AE05A23007C39F5 /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C9B6901AE05A23007C39F5 /* Apple.m */; };
+		69C9B6941AE05A53007C39F5 /* ApplePeelingCompany.m in Sources */ = {isa = PBXBuildFile; fileRef = 69C9B6931AE05A53007C39F5 /* ApplePeelingCompany.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +43,12 @@
 		69C9B67C1AE059F5007C39F5 /* ApplePeelingExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApplePeelingExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		69C9B6811AE059F5007C39F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		69C9B6821AE059F5007C39F5 /* ApplePeelingExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ApplePeelingExampleTests.m; sourceTree = "<group>"; };
+		69C9B68C1AE05A11007C39F5 /* Human.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Human.h; sourceTree = "<group>"; };
+		69C9B68D1AE05A11007C39F5 /* Human.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Human.m; sourceTree = "<group>"; };
+		69C9B68F1AE05A23007C39F5 /* Apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apple.h; sourceTree = "<group>"; };
+		69C9B6901AE05A23007C39F5 /* Apple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apple.m; sourceTree = "<group>"; };
+		69C9B6921AE05A53007C39F5 /* ApplePeelingCompany.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ApplePeelingCompany.h; sourceTree = "<group>"; };
+		69C9B6931AE05A53007C39F5 /* ApplePeelingCompany.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ApplePeelingCompany.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +94,12 @@
 				69C9B66B1AE059F5007C39F5 /* AppDelegate.m */,
 				69C9B66D1AE059F5007C39F5 /* ViewController.h */,
 				69C9B66E1AE059F5007C39F5 /* ViewController.m */,
+				69C9B6921AE05A53007C39F5 /* ApplePeelingCompany.h */,
+				69C9B6931AE05A53007C39F5 /* ApplePeelingCompany.m */,
+				69C9B68C1AE05A11007C39F5 /* Human.h */,
+				69C9B68D1AE05A11007C39F5 /* Human.m */,
+				69C9B68F1AE05A23007C39F5 /* Apple.h */,
+				69C9B6901AE05A23007C39F5 /* Apple.m */,
 				69C9B6701AE059F5007C39F5 /* Main.storyboard */,
 				69C9B6731AE059F5007C39F5 /* Images.xcassets */,
 				69C9B6751AE059F5007C39F5 /* LaunchScreen.xib */,
@@ -219,9 +234,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				69C9B6911AE05A23007C39F5 /* Apple.m in Sources */,
 				69C9B66F1AE059F5007C39F5 /* ViewController.m in Sources */,
 				69C9B66C1AE059F5007C39F5 /* AppDelegate.m in Sources */,
 				69C9B6691AE059F5007C39F5 /* main.m in Sources */,
+				69C9B68E1AE05A11007C39F5 /* Human.m in Sources */,
+				69C9B6941AE05A53007C39F5 /* ApplePeelingCompany.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

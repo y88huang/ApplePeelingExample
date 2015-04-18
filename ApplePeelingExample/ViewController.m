@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "Human.h"
+#import "ApplePeelingCompany.h"
 
 @interface ViewController ()
 
@@ -16,12 +18,16 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
-}
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+//    First there are three companies.
+    ApplePeelingCompany *company1 = [[ApplePeelingCompany alloc] initWithName:@"AppleExpress"];
+    ApplePeelingCompany *company2 = [[ApplePeelingCompany alloc] initWithName:@"AppleTerminator"];
+    ApplePeelingCompany *company3 = [[ApplePeelingCompany alloc] initWithName:@"AppleSavior"];
+    
+//  Me here
+    Human *ken = [[Human alloc] initWithName:@"Ken"];
+    ken.companyToPeelMyApple = company1;
+//    peel it!!!!
+    [ken.companyToPeelMyApple peelApple:ken.apple For:ken];
 }
 
 @end
